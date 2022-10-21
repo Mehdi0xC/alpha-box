@@ -1,0 +1,4 @@
+pipeline: detr
+model: resnet50 
+labels: COCO_LABELS
+threshold: 0.5

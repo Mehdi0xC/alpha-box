@@ -1,0 +1,13 @@
+pipeline: detr
+model: resnet50 
+labels: COCO_LABELS
+threshold: 0.5
+path:
+  output: /localhome/msa332/data/det/output.mp4
+  input: /localhome/msa332/data/det/cat
+
+frame_size:
+  width: 456
+  height: 256
+
+frame_rate: 24
